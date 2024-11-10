@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-gradient-banner {
+      background: linear-gradient(to right, #0B6839, #038A47, #39A935, #A1C51700);
+    }
+  }
+
+  @media (max-width: 375px) {
+    .custom-width {
+      width: 100%; 
+    }
+    .custom-height {
+      height: 931px;
+    }
+  }
