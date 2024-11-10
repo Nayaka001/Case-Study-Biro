@@ -8,6 +8,6 @@ Berikut untuk perintah migrate
 
 php artisan migrate
 
-Berikut untuk perinta seeder
+Berikut untuk perintah seeder
 
 php artisan db:seed --class=(namaclass)
